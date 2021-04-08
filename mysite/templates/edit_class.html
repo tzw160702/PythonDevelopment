@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h1>编辑班级！</h1>
+    id:{{ result.id}}
+    classname:{{ result.classname}}
+    <!--<form method="POST" action="/edit_class/">-->
+        <!--<input style="display: none" value="{{ result.id }}" />-->
+        <!--<p>班级名称: <input type="text" name="classname" value="{{ result.classname}}" /></p>-->
+        <!--<input type="submit" value="提交" />-->
+    <!--</form>-->
+    <form method="POST" action="/edit_class/?nid={{ result.id }}">
+       <p>班级名称: <input type="text" name="classname" value="{{ result.classname}}" /></p>
+       <input type="submit" value="提交" />
+    </form>
+</body>
+</html>
