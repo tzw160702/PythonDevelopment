@@ -1,100 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9664bae5-b314-4225-af49-9b9e6429f75d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mainapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mainapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mainapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mainapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mainapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mainapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mainapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mainapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mainapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/modular/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/modular/sql_connect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/mysite/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/css/commons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/images/touxiang - 副本.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/images/touxiang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/add_class.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/add_student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/add_teacher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/edit_class.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/edit_student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/edit_teacher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/responsive_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/students.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/teachers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/utils/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="9664bae5-b314-4225-af49-9b9e6429f75d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -358,7 +265,7 @@
       <workItem from="1617290381644" duration="3833000" />
       <workItem from="1617694509384" duration="2104000" />
       <workItem from="1617773507429" duration="3012000" />
-      <workItem from="1617847293531" duration="3676000" />
+      <workItem from="1617847293531" duration="4302000" />
     </task>
     <servers />
   </component>
