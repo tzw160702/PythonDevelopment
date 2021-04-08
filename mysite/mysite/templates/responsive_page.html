@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--移动设备优先 user-scalable=no  页面无法进行缩放-->
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/plugins/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+    <style>
+        #set{
+            background-color: #2aabd2;
+            height: 80px;
+        }
+        @media (max-width: 700px) {
+            #set{
+                background-color: #dca7a7;
+                height: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="set"><h1 style="margin: 0 50% ">图片</h1></div>
+    <div style="background-color: #dddddd">   <!-- 栅格系统创建页面布局 -->
+        <div class="col-md-1">左边</div>
+        <div class="col-md-11">右边</div>
+    </div>
+</body>
+</html>

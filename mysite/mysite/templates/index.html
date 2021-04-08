@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>blog 主页</title>
+    <link rel="stylesheet" href="/staic/css/login.css">
+</head>
+<body>
+    <h2>模板标记语法</h2>
+    <div>
+        <p>{{ name }}</p>
+        <p>{{ sex.zhangsan }}</p>
+        <p>{{ zhouyuan.2 }}</p>
+    </div>
+    <h3>循环</h3>
+    <ul>
+        {% for item in zhouyuan %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <h5>循环！</h5>
+    <table border="1">
+        {% for row in user_list_dict %}
+            <tr>
+                <td>{{ row.id }}</td>
+                <td>{{ row.name }}</td>
+                <td>{{ row.email }}</td>
+                <td>
+                    <a>编辑</a> | <a href="/del/?nid={{ row.id }}">删除</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
