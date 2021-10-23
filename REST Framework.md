@@ -3,7 +3,7 @@
 * ***DjangoRestframework 主要使用  APIView 类，其 APIView 实质是对 View 进行继承加工了更多功能***
 * ***请求进来 APIView() 首先执行 self.dispatch() 方法，此方法对 原有 request 进行了再次封装***
 
-**一、 基于 FBV 试图函数**
+**一、 基于 FBV 视图函数**
 
 ```python
 * 全站使用 csrf 认证
@@ -27,7 +27,7 @@ def users(request):
     return HttpResponse(json.dumps((user_list)))
 ```
 
-**二、基于 CBV 的试图函数**
+**二、基于 CBV 的视图函数**
 
 > CBV csrf 时需要使用
 
