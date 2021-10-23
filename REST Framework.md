@@ -1150,7 +1150,7 @@ urlpatterns = [
 
 视图继承图：
 
-![继承图](\photo\1.png)
+![继承图](/photo/1.png)
 
 ### 异同：
 
