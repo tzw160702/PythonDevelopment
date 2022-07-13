@@ -19,7 +19,7 @@ def users(request):
 * 全站不使用 csrf 认证 
 #'django.middleware.csrf.CsrfViewMiddleware', # 全站不使用csrf认证
 
-from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.csrf import csrf_protect
 
 @csrf_protect # 该函数需认证
 def users(request):
